@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Extended_Api>
+            <version>1.0.0</version>
+        </Extended_Api>
+    </modules>
+
+    <global>
+        <models>
+            <catalog>
+                <rewrite>
+                    <product_api>Extended_Api_Catalog_Model_Product_Api</product_api>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+
+</config>
