@@ -1,6 +1,7 @@
 <?php
 
-class Extended_Api_Catalog_Model_Product_Api extends Mage_Catalog_Model_Product_Api
+
+class Abstract_ExtendedApi_Catalog_Model_Product_Api extends Mage_Catalog_Model_Product_Api
 {
 
     protected function _prepareDataForSave($product, $productData) {
